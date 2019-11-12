@@ -1,0 +1,831 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+/*@import "~@angular/material/prebuilt-themes/indigo-pink.css";*/
+
+
+
+%font-open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+%font-oxygen{
+    font-family: 'Oxygen', sans-serif;
+}
+
+%font-josefina{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.texto-encabezado{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.texto-oxygen{
+  font-family: 'Oxygen', sans-serif;
+}
+
+.texto-oepn-sans
+{
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+.texto-josefina
+{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.text-blue{
+  color: #01579B!important;
+}
+.navbar-default {
+  background-color: #2764AD ;
+  border-color: rgb(216, 91, 2);
+}
+
+
+
+      .container-fluid-nav div{
+        display: flex;
+      justify-content: space-around;}
+
+      .nav {
+        display: flex;
+        justify-content: center;
+      list-style: none;
+      }
+      
+      li {
+        text-align: center;
+      }
+      
+      li:not(:last-child) {
+      margin-right: 1em;
+      }
+
+.fa-navicon {
+  color: #ebffff;
+}
+
+.footer-white {
+        font-family: 'Bahianita', cursive;
+        background-color: #ffffff !important;
+        border-color: rgb(216, 91, 2);
+      }
+
+.footer-default {
+        background-color: #A05096 !important;
+        border-color: rgb(216, 91, 2);
+      }
+
+#top {
+        
+        background: #F5EEB8;padding: 0 0 0; 
+        color: #000;font-size:13px;
+        height: 50px;
+}
+
+body{
+        font-family: 'Roboto', sans-serif;
+       }  
+
+.fondo-body {
+        background: rgba(255, 239, 153, 0.7);
+    } 
+
+.menu-font{font-size: 15px;
+        }
+
+.sub-menu-top {
+        background: #DCF1F2;padding: 2px 0 0; 
+        color: #000;font-size:13px;
+}
+
+.fondo {
+        background: #DCF1F2;padding: 2px 0 0; 
+        color: #000;font-size:13px;}
+
+ 
+.btn-menu-uno{
+      
+        color: #e7e7e7 !important;
+    
+}
+
+.btn-menu-uno .hover{
+      
+  color: #1b1a1a !important;
+
+}
+
+
+
+
+
+
+
+.btn-menu-tres{
+        background-color: #D1C4E9 !important;
+        color: #e7e7e7 !important;
+        padding-left: -2px;
+        height: 50px;
+}
+
+.btn-menu-cuatro{
+        background-color: #FFAB00 !important;
+        color: #e7e7e7 !important;
+        padding-left: -2px;
+        height: 50px;
+}
+
+.btn-menu-cinco{
+        background-color: #EF9A9A !important;
+        color: #e7e7e7 !important;
+        padding-left: -2px;
+        height: 50px;
+}
+
+
+
+
+
+.box { background-color: #fff; border-radius: 8px; border: 2px solid #e9ebef; padding: 20px; margin-bottom: 20px; }
+.box-title { margin-bottom: 10px; text-transform: uppercase; font-size: 16px; font-weight: 700; color: #094bde; letter-spacing: 2px; }
+
+.my-hover {
+  cursor: pointer;
+}
+
+
+
+
+.background-slide-1{
+        
+   width      : 100%;
+        height     : 100%;
+        object-fit : contain;
+    background-image: url(./assets/img/clinicaz/medical-funding.PNG);
+}
+
+.img-principal {
+
+  object-fit : contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+   
+background-color: #B3E5FC;
+    
+  }
+
+  .background-principal-1 {
+
+    object-fit : contain;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      overflow: hidden;
+     
+  background-color: #C8E6C9;
+      
+    }
+
+
+    .background-principal-2 {
+
+      object-fit : contain;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        overflow: hidden;
+       
+    background-color: #FFE0B2;
+        
+      }
+
+      .background-principal-3 {
+
+        object-fit : contain;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          overflow: hidden;
+         
+      background-color:  #EFEBE9;
+          
+        }
+
+     
+
+  
+  .transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+.background-capacitaciones{
+        background-size: 100% 100%;
+        background-color: #961853;
+}
+
+.ui-dialog-titlebar {
+        background-color: #961853;
+}
+.ui-dialog{
+        background-color: #961853;
+}
+
+.ui-panel-images {
+        width      : 100%;
+        height     : 100%;
+        object-fit : contain;
+      }
+
+      .cuadro-size {
+        width      : 100%;
+        height     : 100%;
+        object-fit : contain;
+      }
+     
+      .cuadro-size-imagen {
+        width      : 100%;
+        height     : 100%;
+        object-fit : contain;
+        
+      }
+
+      .cuadro-size-imagen-popup {
+        width      : 100%;
+        height     : 100%;
+        align-items: flex-start;
+        position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+      }
+
+      .cuadro-size-videos{
+        width      : 100%;
+        height     : 100%;
+        object-fit : contain;
+      }
+
+      .cuadro-size-capacitaciones {
+        width      : 90%;
+        height     : 90%;
+        object-fit : contain;
+      }
+
+
+.background-popup-noticias{
+        background-color: #FFFFFF;
+} 
+
+.background-noticias{
+        background-color: #C2185B;
+} 
+
+
+.background-financiamiento{
+        background-color: #662382
+        ;
+} 
+
+.background-videos{
+        background-color: #9D182A;
+}
+
+.background-contacto{
+        background-size: 100% 100%;
+        background-image: url(./assets/img/foto_contacto.png)
+}
+
+.background-capacitaciones{
+        background-size: 100% 100%;
+        background-image: url(./assets/img/capacitaciones.jpe)
+}
+
+.background-quienes-somos{
+        background-size: 100% 100%;
+        background-image: url(./assets/img/foto_quinessomos.png)
+}
+
+
+.borde-noticia { 
+      border-radius: 4px; border: 2px solid rgba(245, 245, 245, 0.7); padding: 20px; margin-bottom: 20px; 
+}
+.borde-noticia-title { margin-bottom: 10px; text-transform: uppercase; font-size: 16px; font-weight: 700; color: #094bde; letter-spacing: 2px; }
+
+
+.transparency-banner{
+     
+        border-radius: 4px;
+        height: 100%;
+        
+        background: rgba(102, 35, 130, 0.7);
+}
+
+.transparency-contacto{
+     
+        border-radius: 2px;
+        height: 100%;
+        
+        background: rgba(0, 153, 160, 0.7);
+}
+
+.transparency-quienes-somos{
+     
+        border-radius: 2px;
+        height: 100%;
+        
+        background: rgba(252, 186, 3, 0.7);
+}
+
+
+.transparency-contacto-line{
+        position: absolute;
+        right: 0px;
+        width: 50%;
+        color: #ffffff;
+}
+
+.transparency-quienes-somos-line{
+        position: absolute;
+        right: 0px;
+        width: 50%;
+        color: #ffffff;
+}
+
+
+.transparency-quienes-somos{
+     
+        border-radius: 2px;
+        height: 100%;
+        background: rgba(227, 45, 28, 0.8);
+}
+
+.transparency-capacitaciones{
+     
+        border-radius: 2px;
+        height: 100%;
+        background: rgba(225, 51, 19, 0.8);
+}
+
+/* 
+.transparency{
+        background-size: 100% 100%;
+        
+        border-radius: 8px;
+        background-image: url(./assets/img/transparency.jpg);
+        background: rgba(245, 245, 245, 0.7)
+}
+
+
+.transparency-2{
+        background-size: 100% 100%;
+               
+        background-image: url(./assets/img/transparency.jpg);
+        background: rgb(94, 53, 177,0.9)
+}
+
+
+.transparency-3{
+        background-size: 100% 100%;
+               
+        background-image: url(./assets/img/transparency.jpg);
+        background: rgb(187, 133, 117,0.9)
+} */
+/******************************************************************************************/
+
+hr { display: block; height: 1px;
+        border: 0; border-top: 3px solid rgb(240, 227, 227);
+        margin: 1em 0; padding: 0; }
+html, body{overflow-x: hidden;}
+
+.imagen-fit{
+        height: 100%;
+        width: 100%;
+         object-fit: contain;
+}
+
+.texto-inicio-fuente-uno{
+        font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+
+.texto-inicio-fuente-dos{
+        font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+.texto-colo-azul{
+        background-color: #3F51B5;
+}
+
+
+
+/************************************* AMINACION DE COMPONENTES *************************************/
+
+
+
+.container {
+    position: relative;
+    padding: 25px;
+  }
+  
+  .container:last-of-type {
+    padding-top: 0px;
+  }
+  /*animation element*/
+  
+  .animation-element {
+    position: relative;
+    width: 30%;
+    margin: 0% 1.33 2.66% 1.33%;
+    float: left;
+  }
+  /*3 grid layout*/
+  
+  .animation-element:nth-of-type(3n-2) {
+    width: 31.5%;
+    margin: 0% 1.375% 2.75% 0%;
+    clear: left;
+  }
+  
+  .animation-element:nth-of-type(3n-1) {
+    width: 31.5%;
+    margin: 0% 1.375% 2.75% 1.375%;
+  }
+  
+  .animation-element:nth-of-type(3n-0) {
+    width: 31.5%;
+    margin: 0% 0% 2.75% 1.375%;
+    clear: right;
+  }
+  /*bounce up animation for the subject*/
+  
+  .bounce-up .subject {
+    opacity: 0;
+    -moz-transition: all 700ms ease-out;
+    -webkit-transition: all 700ms ease-out;
+    -o-transition: all 700ms ease-out;
+    transition: all 700ms ease-out;
+    -moz-transform: translate3d(0px, 200px, 0px);
+    -webkit-transform: translate3d(0px, 200px, 0px);
+    -o-transform: translate(0px, 200px);
+    -ms-transform: translate(0px, 200px);
+    transform: translate3d(0px, 200px, 0px);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .bounce-up.in-view .subject {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 4px, 0px);
+  }
+  
+  .subject {
+    float: left;
+    width: 100%;
+    margin: 0% 1.33% 2.66% 1.33%;
+    background: #F5F5F5;
+    padding: 15px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    border: solid 1px #EAEAEA;
+ 
+  }
+  
+  .subject:hover,
+  .subject:active {
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .subject .header {
+    margin: 8px 0px;
+  }
+  
+  .subject .header .date,
+  .subject .header .category {
+    margin: 0px;
+    clear: none;
+    width: 50%;
+  }
+  
+  .subject .header .date i,
+  .subject .header .category i {
+    margin-right: 5px;
+    color: #333;
+    -moz-transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+  }
+  
+  .subject .header .date {
+    float: left;
+    text-align: left;
+  }
+  
+  .subject .header .category {
+    float: right;
+    text-align: right;
+  }
+  /*subject icon at top*/
+  
+  .subject .icon {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    left: calc(50% - 20px);
+  }
+  
+  .subject .icon i {
+    width: 40px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px;
+  }
+  /*Category color / icon color*/
+  
+  .subject .category-color {
+    height: 7px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .subject.design .category-color,
+  .subject.design .icon i {
+    background: #c0392b;
+  }
+  
+  .subject.development .category-color,
+  .subject.development .icon i {
+    background: #16a085;
+  }
+  
+  .subject.photography .category-color,
+  .subject.photography .icon i {
+    background: #2980b9;
+  }
+  /*hovering over subject*/
+  
+  .subject.development:hover .header i {
+    color: #16a085;
+  }
+  
+  .subject.design:hover .header i {
+    color: #c0392b;
+  }
+  
+  .subject.photography:hover .header i {
+    color: #2980b9;
+  }
+  
+  .subject .title {
+    margin: 12px 0px;
+    border-bottom: dashed 1px #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .subject .content {
+    margin-bottom: 8px;
+  }
+  
+  .subject .enrole {
+    position: relative;
+    color: #333;
+    padding: 5px 12px;
+    cursor: pointer;
+    float: right;
+    display: inline-block;
+    border: solid 1px #ccc;
+    -moz-transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+  }
+  
+  .subject .enrole:hover,
+  .subject .enrole:active {
+    background: #222;
+    color: #fff;
+  }
+  /*media queries for small devices*/
+  
+  @media screen and (max-width: 678px) {
+    .main-container {
+      margin: 20px 15px;
+    }
+    .animation-element,
+    .animation-element:nth-of-type(3n-1),
+    .animation-element:nth-of-type(3n-2),
+    .animation-element:nth-of-type(3n-0) {
+      width: 100%;
+      margin: 0px 0px 30px 0px;
+    }
+    .subject .header .date,
+    .subject .header .category {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  /************************************* FIN AMINACION DE COMPONENTES *************************************/
+
+
+
+  /************************************* ESTILO PARA CLINICAZ *************************************/
+  
+.icon-color-notificacion-light{
+    color: #9C27B0!important; 
+}
+
+.icon-color-notificacion-light:hover{
+    color: #BA68C8!important;
+}
+
+.text-danger{
+    color: #CE93D8!important;
+}
+
+.text-danger-bold{
+    color: rgb(245, 127, 23) !important;
+    font-weight: bold !important;
+}
+
+.text-success-bold{
+    color: #689f38!important;
+}
+
+.text-warning-bold{
+    color: #EF5350!important;
+    font-weight: bold !important;
+}
+
+.text-ingresar-bold{
+  color: #C8E6C9!important;
+  
+}
+
+
+.text-white{
+    color: #EFEBE9!important;
+}
+
+
+.btn-excel{
+    background:  #1B5E20!important; 
+    border:  #1B5E20!important;
+    border-radius: 5px;    
+    outline-color: #1B5E20!important; 
+    color: #FFFFFF!important;
+    outline: 0;
+    
+}
+
+
+
+
+
+.btn-success:focus{
+    outline-color: #93C252!important; 
+    outline: 0;
+}
+
+
+.block-info{
+    background:  #78AEB7!important; 
+    border:  #78AEB7!important;
+    border-radius: 5px;    
+    outline-color: #78AEB7!important; 
+    outline: 0;
+}
+
+.block-info:active:focus{
+    border-color:  #78AEC7!important;
+    outline:  #78AEC7 !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.block-info:hover{
+    background: #78AEC7!important;
+    border: #78AEC7!important;
+    outline-color: #78AEC7!important; 
+    outline: 0;
+}
+
+.block-info:focus{
+    outline-color: #78AEC7!important; 
+    outline: 0;
+}
+
+
+
+
+.block-warning{
+    background:  #F18829!important; 
+    border:  #F18829!important;
+    border-radius: 5px;    
+    outline-color: #F18829!important; 
+    outline: 0;
+    color: #FFFFFF!important;
+}
+
+.block-warning:active:focus{
+    border-color:  #F18819!important;
+    outline:  #F18819 !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.block-warning:hover{
+    background: #F18819!important;
+    border: #F18819!important;
+    outline-color: #F18819!important; 
+    outline: 0;
+}
+
+.block-warning:focus{
+    outline-color: #F18819!important; 
+    outline: 0;
+}
+
+
+
+
+.block-secondary{
+    background:  #B578B1!important; 
+    border:  #B578B1!important;
+    color: #FFFFFF!important;
+
+}
+
+.block-secondary:active:focus{
+    border-color:  #B578B1!important;
+    outline:  #B578B1 !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.block-secondary:hover{
+    background: #B578C1!important;
+    border: #B578C1!important;
+    outline-color: #B578C1!important; 
+    color: #FFFFFF!important;
+    outline: 0;
+}
+
+.block-secondary:focus{
+    outline-color: #B578C1!important; 
+    outline: 0;
+}
+
+
+
+.block-danger{
+    background:  #D01C20!important; 
+    border:  #D01C20!important;
+    border-radius: 5px;    
+    outline-color: #D01C20!important; 
+    outline: 0;
+    color: #FFFFFF!important;
+}
+
+.block-danger:active:focus{
+    border-color:  #D01C00!important;
+    outline:  #D01C00 !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.block-danger:hover{
+    background: #D01C00!important;
+    border: #D01C00!important;
+    outline-color: #D01C00!important; 
+    outline: 0;
+}
+
+.block-danger:focus{
+    outline-color: #D01C00!important; 
+    outline: 0;
+}
+
+
+/************************************* FIN ESTILO PARA CLINICAZ *************************************/
