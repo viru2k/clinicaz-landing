@@ -1,0 +1,134 @@
+/*These styles contain basic styles for fomatting along with our animation css*/
+
+body {
+   font-size: 16px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   background: #efefef;
+   line-height: 170%;
+ }
+ 
+ strong,
+ b {
+   font-weight: 600
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-weight: 300;
+   line-height: 150%;
+ }
+ 
+ i.fa {
+   color: #333;
+ }
+ 
+ *,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+ }
+ /*clearfixes*/
+ 
+ .cf:before,
+ .cf:after {
+   content: " ";
+   display: table;
+ }
+ 
+ .cf:after {
+   clear: both;
+ }
+ 
+ .main-container {
+   background: #fff;
+   max-width: 1000px;
+   margin: 25px 25px auto;
+   position: relative;
+ }
+ 
+
+ .card{
+  padding: 0px;
+
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+}
+
+.nav-link{
+  color: #fff;
+  font-size: 13px;
+  margin-left: -7px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+  width: 100%;
+  height: 50px;
+  padding: 6px;
+  background-color: #fff;
+  display: inline-block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  border-bottom-color: #110E35;
+}
+
+.icon-nav{
+  color: #000;
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-nav{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #000;
+  margin-left: 105px;
+}
+
+.container-body{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-product{
+
+  background-color: #fff;
+  margin-top: 18px;
+  margin-left: 8px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px -2px rgba(50, 88, 130, 0.32);
+  transition: transform .2s;
+}
+
+.card-product:hover{
+  transform: scale(1.02);
+}
+
+.image{
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title-card, .names{
+    display: inline-block;
+    width: 100%;
+}

@@ -170,14 +170,23 @@ body{
     background-image: url(./assets/img/clinicaz/medical-funding.PNG);
 }
 
+
+
+.background-slide-2{
+        
+  width      : 100%;
+       height     : 100%;
+       object-fit : contain;
+   background-image: url(./assets/img/clinicaz/blue.png);
+}
+
+
 .img-principal {
 
+  width      : 100%;
+  height     : 100%;
   object-fit : contain;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    overflow: hidden;
-   
-background-color: #B3E5FC;
+background-image: url(./assets/img/clinicaz/background_medico.PNG);
     
   }
 
