@@ -24,6 +24,7 @@
             ],
             "styles": [
               "src/styles.scss",
+              "src/assets/styles/botones.scss",
               "src/assets/sass/now-ui-kit.scss",
               "node_modules/animate.css/animate.css",
               "node_modules/hover.css/css/hover-min.css",

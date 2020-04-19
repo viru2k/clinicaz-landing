@@ -60,8 +60,7 @@ $($window.trigger('scroll'));
 
 /****************** FIN GESTION DE ANIMACION EN JQERY*********** */
 
-    this.loadListNoticias();
-    this.loadListVideos();
+   
   }
 
 

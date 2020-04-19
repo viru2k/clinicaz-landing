@@ -1,0 +1,272 @@
+
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: #efefef;
+    line-height: 170%;
+  }
+  
+  strong,
+  b {
+    font-weight: 600
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 300;
+    line-height: 150%;
+  }
+  
+  i.fa {
+    color: #333;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  /*clearfixes*/
+  
+  .cf:before,
+  .cf:after {
+    content: " ";
+    display: table;
+  }
+  
+  .cf:after {
+    clear: both;
+  }
+  
+  .main-container {
+    background: #fff;
+    max-width: 1000px;
+    margin: 25px 25px auto;
+    position: relative;
+  }
+  
+ 
+  .card{
+   padding: 0px;
+ 
+   border-style: solid;
+   border-width: 0px;
+   border-radius: 10px;
+   box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+ }
+ 
+ .nav-link{
+   color: #fff;
+   font-size: 13px;
+   margin-left: -7px;
+   font-family: 'Roboto', sans-serif;
+ }
+ 
+ .navigation{
+   width: 100%;
+   height: 50px;
+   padding: 6px;
+   background-color: #fff;
+   display: inline-block;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: #fff;
+   border-bottom-color: #110E35;
+ }
+ 
+ .icon-nav{
+   color: #000;
+   font-size: 20px;
+   padding-left: 10px;
+   font-family: 'Roboto', sans-serif;
+ }
+ 
+ .text-nav{
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: #000;
+   margin-left: 105px;
+ }
+ 
+ .container-body{
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+ }
+ 
+ .card-product{
+ 
+   background-color: #fff;
+   margin-top: 18px;
+   margin-left: 8px;
+   border-radius: 10px;
+   box-shadow: 0px 15px 30px -2px rgba(50, 88, 130, 0.32);
+   transition: transform .2s;
+ }
+ 
+ .card-product:hover{
+   transform: scale(1.02);
+ }
+ 
+ .image{
+   width: 100%;
+   height: 200px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+ }
+ 
+ .title-card, .names{
+     display: inline-block;
+     width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ /********************* NUEVOOOOOOOOOOOOO**********************/
+ 
+p {
+  color: #212c31;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#demo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card i:hover {
+  color: #003082;
+}
+
+.i-cl {
+  color: #B2C0C8;
+}
+
+.card {
+  position: relative;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 400px;
+  transform: translate(0);
+  margin: 10px;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -5px);
+  ;
+}
+
+.card:hover p span{
+  background: yellow;
+  transition: 0.3s;
+}
+
+.card-img img {
+  width: 100%;
+  max-height: 230px;
+  object-position: center;
+  object-fit: cover;
+  
+}
+
+.card:hover .card-img img{
+  filter: grayscale(0);
+}
+
+.card-bottom {
+  background: #fff;
+}
+
+.card-title {
+  padding: 10px 16px;
+}
+
+.bottom-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  border-top: 1px solid #dde2e4;
+}
+
+.bookmark-options {
+  display: flex;
+}
+
+.view-share {
+  display: flex;
+}
+
+.fas {
+  padding: 5px;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  margin: 5px 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.social a:hover {
+  background: #003082;
+}
+
+.social a:hover i {
+  color: #fff;
+}
+/*
+.social {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}*/
+
+
+.cirulo {
+
+  background: #fff;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  right: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}

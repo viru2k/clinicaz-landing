@@ -1,0 +1,280 @@
+
+
+
+
+<div class="wrapper animated fadeInDown" *ngIf="!loggedIn">
+
+  <div style="background-color: #666666;">
+    <div class="limiter">
+            <div class="container-login100">
+                    <div class="wrap-login100"> 
+                            <form [formGroup]="loginForm"  class="login100-form validate-form" (ngSubmit)="onSubmit()">
+                                    <img src="assets/images/logo_clinicaz.png" width="90%" height="75" class="mt-5 mb-5 center-img"> 
+                                    <span class="login100-form-title p-b-43">
+                                            Bienvenido
+                                    </span>
+                                    
+                                    
+                                    <div class="wrap-input100 validate-input" data-validate = "Usuario válido es requerido">
+                                            <input class="input100" type="text" name="email" formControlName="username"   autofocus>
+                                            <span  class="focus-input100" ></span>
+                                            <span   class="label-input100" >Usuario</span>
+                                            
+                                    </div>
+                                    
+                                    
+                                    <div class="wrap-input100 validate-input" data-validate="Contraseña es requerida">
+                                            <input class="input100" type="password" name="pass" formControlName="password" >
+                                            <span class="focus-input100"></span>
+                                            <span class="label-input100" >Contraseña</span>
+                                    </div>
+  
+                    
+  
+                                    <div class="container-login100-form-btn texto-oxygen">
+                                            <button class="login100-form-btn texto-josefina">
+                                                    Ingresar
+                                            </button>
+                                    </div>
+                                    
+                                    
+                            </form>
+  
+                            <div class="login100-more" style="background-image: url(assets/img/clinicaz/login.jpg);">
+                            </div>
+                    </div>
+            </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class=" animated fadeInDown  img-principal mt-5 mb-5" *ngIf="loggedIn">
+    <div class="d-flex justify-content-center ">
+    <br>
+    <br>
+    <br>
+    <div class="mt-5 mb-5 card col-xs-12 col-sm-12 col-md-12 col-lg-8">
+      <div class="mt-3  d-flex justify-content-center">
+                  <h3 class=" texto-roboto text-gray m-3 animated bounceInDown slow">Elegí el Plan que más te convenga</h3>
+      </div>
+      <div class=" text-center m-3 d-flex justify-content-center">
+             
+      <div class="card text-center m-2 d-flex justify-content-start">
+          <div class="card-header row d-flex justify-content-between">
+              <h5 class="ml-2 d-flex justify-content-end text-info">Básico</h5>
+              <h5 class="ml-2 d-flex justify-content-end text-info mr-2 texto-josefina">  <span class="badge badge-danger">Mas vendido</span></h5>
+            
+          </div>
+          <div class="card-body">  
+            
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 1 </label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 3</label></div>
+            <hr>
+            <h5 class="mr-2 d-flex justify-content-end text-success">$ 700 x Mes</h5>
+            <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank"  href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=cdf266219e0f4558826ad98acdd57d51">Suscribirse</a></b></h2>
+          </div>
+      </div>
+      
+      <div class="card text-center m-2  d-flex justify-content-end">
+          <div class="card-header row d-flex justify-content-between">
+              <h5 class="ml-2 d-flex justify-content-start text-info">Básico + Factura electrónica</h5>
+              
+          </div>
+          <div class="card-body">  
+            
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 1 </label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 3</label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-dollar-sign fa-lg mr-2 text-success"></i>Factura electrónica</label></div>
+            <hr>
+            <h5 class="mr-2 d-flex justify-content-end text-success">$ 1.300 x Mes</h5>
+            <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank" href="http://mpago.la/2tRrD6">Suscribirse</a></b></h2>
+          </div>
+      </div>
+
+</div>
+
+
+
+<div class=" text-center m-3 d-flex justify-content-center">
+             
+      <div class="card text-center m-2 d-flex justify-content-start">
+          <div class="card-header row d-flex justify-content-between">
+              <h5 class="ml-2 d-flex justify-content-end text-info">Clínicas y Consultorios</h5>
+              <h5 class="ml-2 d-flex justify-content-end text-info mr-2 texto-josefina">  <span class="badge badge-info">Recomendado</span></h5>
+          </div>
+          <div class="card-body">  
+            
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 3 </label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 5</label></div>
+            <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y rendición</label></div>
+            <hr>
+            <h5 class="mr-2 d-flex justify-content-end text-success">$ 1500 x Mes</h5>
+            <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank"  href="http://mpago.la/1Jt8sf">Suscribirse</a></b></h2>
+          </div>
+      </div>
+      
+      <div class="card text-center m-2  d-flex justify-content-end">
+          <div class="card-header  d-flex justify-content-between">
+              <h5 class="ml-2 d-flex justify-content-start text-info">Clínicas y Consultorios + Estudios</h5>
+              
+          </div>
+          <div class="card-body">  
+
+           <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+           <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 3 </label></div>
+           <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 5</label></div>
+           <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y rendición</label></div>
+            <div class="d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-stethoscope fa-lg mr-2 text-secondary"></i>Estudios</label></div>
+            <hr>
+            <h5 class="mr-2 d-flex justify-content-end text-success">$ 2.400 x Mes</h5>
+            <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank" href="http://mpago.la/41hTKQ">Suscribirse</a></b></h2>
+          </div>
+      </div>
+
+</div>
+
+
+
+<div class=" text-center m-3 d-flex justify-content-center">
+             
+                <div class="card text-center m-2  d-flex justify-content-start">
+                                <div class="card-header row d-flex justify-content-between">
+                                                <h5 class="ml-2 d-flex justify-content-start text-info">Clínicas y Consultorios + Estudios + Fac. electrónica</h5>
+                        
+                                        </div>
+                                        <div class="card-body">  
+                                          
+                                          <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+                                          <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 3 </label></div>
+                                          <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 5</label></div>
+                                          <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y rendición</label></div>
+                                          <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-dollar-sign fa-lg mr-2 text-success"></i>Factura electrónica</label></div>
+                                          <hr>
+                                          <h5 class="mr-2 d-flex justify-content-end text-success">$ 3.000 x Mes</h5>
+                                          <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank"  href="http://mpago.la/155DFz">Suscribirse</a></b></h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="card text-center m-2  d-flex justify-content-start">
+                                                <div class="card-header row d-flex justify-content-between">
+                                                    <h5 class="ml-2 d-flex justify-content-start text-info">Avanzado</h5>
+                                                    
+                                                </div>
+                                                <div class="card-body">  
+                                      
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 7 </label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 7</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y gestión de obra social</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-phone fa-lg mr-2 text-warning"></i>Agenda de recepción y telefonista</label></div> 
+                                                 <div class="d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-stethoscope fa-lg mr-2 text-secondary"></i>Estudios</label></div>
+                                                  <hr>
+                                                  <h5 class="mr-2 d-flex justify-content-end text-success">$ 2.500 x Mes</h5>
+                                                  <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank" href="http://mpago.la/3UjiWW">Suscribirse</a></b></h2>
+                                                </div>
+                                        </div>
+          
+          </div>
+
+          
+<div class=" text-center m-3 d-flex justify-content-center">
+             
+
+
+                            <div class="card text-center m-2  d-flex justify-content-start">
+                                        <div class="card-header row d-flex justify-content-between">
+                                            <h5 class="ml-2 d-flex justify-content-start text-info">Avanzado + 5 Usuarios adicionales</h5>
+                                            
+                                        </div>
+                                        <div class="card-body">  
+                              
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 7 </label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 7</label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y gestión de obra social</label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-phone fa-lg mr-2 text-warning"></i>Agenda de recepción y telefonista</label></div> 
+                                         <div class="d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-stethoscope fa-lg mr-2 text-secondary"></i>Estudios</label></div>
+                                         <div class=" d-flex align-items-center" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuarios adicionales - 5  </label></div>
+                                          <hr>
+                                          <h5 class="mr-2 d-flex justify-content-end text-success">$ 3.400 x Mes</h5>
+                                          <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank" href="http://mpago.la/3Qj6iA">Suscribirse</a></b></h2>
+                                        </div>
+                                    </div>
+                                    <div class="card text-center m-2  d-flex justify-content-start">
+                                                <div class="card-header row d-flex justify-content-between">
+                                                    <h5 class="ml-2 d-flex justify-content-start text-info">Avanzado + 5 Usuarios + Fac. electrónica</h5>
+                                                    
+                                                </div>
+                                                <div class="card-body">  
+                                      
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 7 </label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 7</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y gestión de obra social</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-phone fa-lg mr-2 text-warning"></i>Agenda de recepción y telefonista</label></div> 
+                                                 <div class="d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-stethoscope fa-lg mr-2 text-secondary"></i>Estudios</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-dollar-sign fa-lg mr-2 text-success"></i>Factura electrónica</label></div>
+                                                  <hr>
+                                                  <h5 class="mr-2 d-flex justify-content-end text-success">$ 4.000 x Mes</h5>
+                                                  <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank" href="https://www.mercadopago.com/mla/debits/new?preapproval_plan_id=5fe0d63667964488b582a4f908658f0e">Suscribirse</a></b></h2>
+                                                </div>
+                                            </div>
+          
+          </div>
+
+
+                
+<div class=" text-center m-3 d-flex justify-content-center">
+             
+           
+
+                            <div class="card text-center m-2  d-flex justify-content-start">
+                                        <div class="card-header row d-flex justify-content-between">
+                                            <h5 class="ml-2 d-flex justify-content-start text-info">Clínica Web</h5>
+                                            
+                                        </div>
+                                        <div class="card-body">  
+                              
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 7 </label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 7</label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y gestión de obra social</label></div>
+                                         <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-phone fa-lg mr-2 text-warning"></i>Agenda de recepción y telefonista</label></div> 
+                                         <div class="d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-stethoscope fa-lg mr-2 text-secondary"></i>Estudios y Quirófano</label></div>                                         
+                                          <hr>
+                                          <h5 class="mr-2 d-flex justify-content-end text-success">$ 6.500 x Mes</h5>
+                                          <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank" href="http://mpago.la/2ap2JZ">Suscribirse</a></b></h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="card text-center m-2  d-flex justify-content-start">
+                                                <div class="card-header row d-flex justify-content-between">
+                                                    <h5 class="ml-2 d-flex justify-content-start text-info">Clínica Web + fac. electrónica</h5>
+                                                    
+                                                </div>
+                                                <div class="card-body">  
+                                      
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-heartbeat fa-lg mr-2 text-danger"></i>Gestión de agenda e historia clínica</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-user fa-lg mr-2 text-secondary"></i>Usuario disponibles - 15 </label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="far fa-hospital fa-lg mr-2"></i>Clínicas - 1</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-file-invoice-dollar fa-lg mr-2 text-success"></i>Operación de cobros y gestión de obra social</label></div>
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-phone fa-lg mr-2 text-warning"></i>Agenda de recepción y telefonista</label></div> 
+                                                 <div class="d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-stethoscope fa-lg mr-2 text-secondary"></i>Estudios y Quirófano</label></div>                                                 
+                                                 <div class=" d-flex align-items-center d-flex justify-content-start" ><label><i class="fas fa-dollar-sign fa-lg mr-2 text-success"></i>Factura electrónica</label></div>
+                                                  <hr>
+                                                  <h5 class="mr-2 d-flex justify-content-end text-success">$ 7.100 x Mes</h5>
+                                                  <h2 class="text-success"><b> <a class="btn btn-success btn-block btn-lg" target="_blank" href="http://mpago.la/13DNzM">Suscribirse</a></b></h2>
+                                                </div>
+                                            </div>
+        
+          
+          </div>
+          
+  </div>
+
+  <br>
+  <br style="height: 100%;">
+  </div>

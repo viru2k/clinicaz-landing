@@ -1,7 +1,7 @@
 
 
 
-export const URL_SERVICIOS = 'http://agenciacalidadsanjuan.com.ar/api-calidad-sanjuan/public/api/'; 
+export const URL_SERVICIOS = 'https://clinicaz.com.ar/api-vision/public/api/'; 
 //export const URL_SERVICIOS = 'http://localhost/api-psciologo/public/api/';
 //export const URL_SERVICIOS = 'http://localhost/api-psciologo/public/api/';
 //export const URL_SERVICIOS = 'https://colegiodepsicologossj.com.ar/api-psicologo/public/api/'; 

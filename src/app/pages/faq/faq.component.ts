@@ -10,6 +10,13 @@ export class FaqComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+ 
+  }
+
+  show:boolean = false;
+
+  toggleCollapse() {
+    this.show = !this.show
   }
 
 }

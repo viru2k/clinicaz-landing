@@ -24,9 +24,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { InicioComponent } from './pages/inicio/inicio.component';
-import { QuienesSomosComponent } from './pages/institucional/quienes-somos/quienes-somos.component';
-import { CreditosComponent } from './pages/institucional/creditos/creditos.component';
-import { CapacitacionesComponent } from './pages/institucional/capacitaciones/capacitaciones.component';
 import { ROUTES } from './app.routes';
 
 
@@ -37,7 +34,6 @@ import { JwtInterceptor } from './helpers/jwt.interceptor';
 import { ErrorInterceptor } from './helpers/error.interceptor';
 import { FinanciamientoComponent } from './pageses/institucional/financiamiento/financiamiento.component';
 import { ContactoComponent } from './pageses/institucional/contacto/contacto.component';
-import { LoadingComponent } from './shared/loading/loading.component';
 import {ScrollPanelModule} from 'primeng/scrollpanel';
 import {DialogModule} from 'primeng/dialog';
 import {DynamicDialogModule} from 'primeng/dynamicdialog';
@@ -48,7 +44,13 @@ import { FaqComponent } from './pages/faq/faq.component';
 import { PreciosComponent } from './pages/precios/precios.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { TerminosComponent } from './pages/terminos/terminos.component';
+import { CuentaComponent } from './pages/cuenta/cuenta.component';
 
+import localeEsAr from '@angular/common/locales/es-AR';
+import { PlanComponent } from './pages/registrarse/plan/plan.component';
+import { ExitoComponent } from './pages/registro/exito/exito.component';
+import { EnprocesoComponent } from './pages/registro/enproceso/enproceso.component'; 
+registerLocaleData(localeEsAr, 'es-Ar');
 
 @NgModule({
   declarations: [
@@ -56,18 +58,18 @@ import { TerminosComponent } from './pages/terminos/terminos.component';
     NavbarComponent,
   
     InicioComponent,
-    QuienesSomosComponent,
-    CreditosComponent,
-    CapacitacionesComponent,
     FinanciamientoComponent,
-    ContactoComponent,
-    LoadingComponent,
+    ContactoComponent,    
     PopupNoticiaComponent,
     RegistarseComponent,
     FaqComponent,
     PreciosComponent,
     RegistroComponent,
-    TerminosComponent
+    TerminosComponent,
+    CuentaComponent,
+    PlanComponent,
+    ExitoComponent,
+    EnprocesoComponent
   ],
   imports: [
     DynamicDialogModule,
@@ -83,7 +85,7 @@ import { TerminosComponent } from './pages/terminos/terminos.component';
     NgxYoutubePlayerModule.forRoot(),
     SweetAlert2Module.forRoot(),
     AutofocusModule,
-    RouterModule.forRoot( ROUTES, { useHash: true } ),
+    RouterModule.forRoot( ROUTES, { useHash: false } ),
   ],
   entryComponents: [PopupNoticiaComponent],
   providers: [{ provide: LOCALE_ID, useValue: 'es-Ar' },{
